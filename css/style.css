@@ -390,6 +390,11 @@ list-style: none;
     min-height: 400px;
   }
 }
+@media (max-width:480px) {
+  .carousel-item{
+    height:200px;
+  }
+}
 @media (max-width:400px) {
   #homeinfo{
 padding-bottom:10px;
@@ -810,7 +815,7 @@ ul {
   position: relative; }
   @media (max-width: 767px) {
     .banner-area {
-      min-height: 300px;
+      min-height: 210px;
     }
      }
   .banner-area h1 {
